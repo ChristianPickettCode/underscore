@@ -14,7 +14,7 @@ const Header = (props: Props) => {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React + Zustand + Ethers</h1>
+      <h1>_underscore</h1>
     </div>
   );
 };

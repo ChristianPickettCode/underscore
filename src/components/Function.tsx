@@ -208,7 +208,7 @@ const Function = ({ sig, index }: Props) => {
       console.log(retrievedWf);
       const funcSign = retrievedWf.funcSign;
 
-      const iface = new ethers.utils.Interface(currentContractABI);
+      const iface = new ethers.utils.Interface(retrievedWf.abi);
 
       const funcFrag = iface.getFunction(funcSign);
       if (funcFrag === undefined || funcFrag === null) {
